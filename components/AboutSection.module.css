@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 3fr 2fr;
+  }
+}
+
+.card {
+  padding: 2.5rem;
+  height: 100%;
+}
+
+.text {
+  font-size: 1.05rem;
+  color: var(--color-text);
+  opacity: 0.9;
+  line-height: 1.8;
+}
