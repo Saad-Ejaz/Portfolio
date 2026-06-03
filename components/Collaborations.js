@@ -12,7 +12,7 @@ export default function Collaborations() {
     },
     {
       category: 'Food & Restaurants',
-      brands: ['Bistro', 'Little Karachi Cafe', 'restaurants in Saudi Arabia']
+      brands: ['Bistro', 'Little Karachi Cafe', 'Seoul Station', 'Kababjees', 'restaurants in Saudi Arabia']
     },
     {
       category: 'Other Collaborations',
@@ -23,7 +23,7 @@ export default function Collaborations() {
   return (
     <section className={`section animate-fade-in-up delay-400`}>
       <h2 className="section-title">Brands & Collaborations</h2>
-      
+
       <div className={styles.grid}>
         {collabs.map((collab, index) => (
           <div key={index} className={`${styles.card} hover-lift glass-card`}>
