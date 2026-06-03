@@ -4,7 +4,7 @@ export default function Collaborations() {
   const collabs = [
     {
       category: 'Beauty & Parlours',
-      brands: ['Najjas', 'Styloria', 'Ellas Aesthetic', 'Hifgy', 'Maybelline', 'Laksh Shop']
+      brands: ['Najlas', 'Styloria', 'Ellas Aesthetic', 'Highfy', 'Maybelline', 'Laksh Shop']
     },
     {
       category: 'Fashion & Clothing',
